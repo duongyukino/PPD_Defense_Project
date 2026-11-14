@@ -22,3 +22,9 @@ data/processed/train_pixels.npy
 # Generated artifacts
 /experiments/ppd_classification/figures/
 *.egg-info/
+
+# Removed from repository
+summarize_results.py
+rebuild_summary.py
+HUONG-DAN-GUI.md
+README.md
