@@ -1,0 +1,2 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf,post_l2,px_changed
+efficientnet_b0_none,ppd32m,pgd_adapt,2,5,0.2,0.0,1.0,0.8,2.275,2.0,7.484,0.0619

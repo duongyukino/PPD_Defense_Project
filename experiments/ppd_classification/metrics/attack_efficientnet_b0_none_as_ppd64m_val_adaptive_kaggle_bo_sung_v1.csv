@@ -1,0 +1,9 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf,post_l2,px_changed
+efficientnet_b0_none,ppd64m,fgsm_adapt,2,200,0.785,0.365,0.535,0.97,3.029,2.0,8.21,0.1367
+efficientnet_b0_none,ppd64m,fgsm_adapt,4,200,0.785,0.29,0.6306,0.905,6.037,4.0,11.168,0.2387
+efficientnet_b0_none,ppd64m,fgsm_adapt,8,200,0.785,0.3,0.6306,0.605,11.985,8.0,15.251,0.4158
+efficientnet_b0_none,ppd64m,pgd_adapt,2,200,0.785,0.045,0.9427,0.965,2.715,2.0,7.636,0.1201
+efficientnet_b0_none,ppd64m,pgd_adapt,4,200,0.785,0.0,1.0,0.9,5.006,4.0,10.046,0.1964
+efficientnet_b0_none,ppd64m,pgd_adapt,8,200,0.785,0.0,1.0,0.45,9.041,8.0,13.042,0.3148
+efficientnet_b0_none,ppd64m,cw_adapt,k0,100,0.76,0.0,1.0,0.99,0.894,9.58,3.324,0.0333
+efficientnet_b0_none,ppd64m,cw_adapt,k10,100,0.76,0.0,1.0,0.91,2.794,26.85,6.728,0.0934

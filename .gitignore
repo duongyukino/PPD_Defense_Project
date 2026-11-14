@@ -3,12 +3,22 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Exclude non-PPD directories
+advlab/
+advlab.egg-info/
+advlab_examples/
+tests/
+checkpoints/
+assets/
+archives/
+/experiments/yolov5_classification/
+/experiments/physical_robustness/
+
+# Large files (hosted on Google Drive)
 data/processed/cache/
 data/processed/train_pixels.npy
 /artifacts/checkpoints/**/*.pt
-/assets/pretrained/*.pt
+
+# Generated artifacts
 /experiments/ppd_classification/figures/
-/experiments/yolov5_classification/metrics/
-/experiments/yolov5_classification/figures/
-/archives/colab/*.zip
 *.egg-info/

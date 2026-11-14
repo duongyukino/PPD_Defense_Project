@@ -1,0 +1,4 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf,post_l2,px_changed
+resnet50_none,ppd32m,pgd_adapt,2,200,0.745,0.27,0.6376,0.97,2.46,2.0,8.135,0.0652
+resnet50_none,ppd32m,pgd_adapt,4,200,0.745,0.08,0.8926,0.96,4.65,4.0,10.818,0.111
+resnet50_none,ppd32m,pgd_adapt,8,200,0.745,0.0,1.0,0.82,8.732,8.0,14.272,0.1858

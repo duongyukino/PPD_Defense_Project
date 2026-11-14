@@ -1,0 +1,6 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf,post_l2,px_changed
+resnet50_none,jpeg75,fgsm_adapt,2,200,0.985,0.87,0.1168,0.81,3.029,2.0,4.188,0.887
+resnet50_none,jpeg75,fgsm_adapt,4,200,0.985,0.795,0.1929,0.705,6.036,4.0,5.922,0.9581
+resnet50_none,jpeg75,fgsm_adapt,8,200,0.985,0.755,0.2386,0.565,11.984,8.0,9.714,0.991
+resnet50_none,jpeg75,cw_adapt,k0,100,0.98,0.0,1.0,0.56,1.665,15.8,3.034,0.6554
+resnet50_none,jpeg75,cw_adapt,k10,100,0.98,0.0,1.0,0.16,3.063,24.76,4.164,0.8295

@@ -1,0 +1,12 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf
+resnet50_none,none,noise,2,500,0.994,0.988,0.008,0.988,3.029,2.0
+resnet50_none,none,noise,4,500,0.994,0.984,0.0141,0.984,6.038,4.0
+resnet50_none,none,noise,8,500,0.994,0.91,0.0885,0.91,11.99,8.0
+resnet50_none,none,fgsm,2,500,0.994,0.748,0.2475,0.748,3.029,2.0
+resnet50_none,none,fgsm,4,500,0.994,0.656,0.34,0.656,6.038,4.0
+resnet50_none,none,fgsm,8,500,0.994,0.546,0.4507,0.546,11.989,8.0
+resnet50_none,none,pgd,2,500,0.994,0.002,0.998,0.002,2.023,2.0
+resnet50_none,none,pgd,4,500,0.994,0.0,1.0,0.0,3.942,4.0
+resnet50_none,none,pgd,8,500,0.994,0.0,1.0,0.0,7.781,8.0
+resnet50_none,none,cw,k0,100,0.99,0.0,1.0,0.0,0.828,7.4
+resnet50_none,none,cw,k10,100,0.99,0.0,1.0,0.0,1.568,10.44

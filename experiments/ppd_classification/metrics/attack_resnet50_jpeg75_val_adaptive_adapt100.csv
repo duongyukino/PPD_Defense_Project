@@ -1,0 +1,2 @@
+ckpt,defense,attack,param,n,clean_acc,robust_acc,asr,bb_acc,l2,linf,post_l2,px_changed
+resnet50_jpeg75,jpeg75,pgd_adapt,2,200,0.985,0.295,0.7005,0.38,2.46,2.0,3.901,0.8703
